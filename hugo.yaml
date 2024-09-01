@@ -1,0 +1,29 @@
+baseURL: "https://iancoccimiglio.github.io/imaging-insights/"
+languageCode: "en-us"
+title: "Ian's Imaging Insights"
+theme: "paper"
+
+params:
+  description: "Evaluations of imaging platforms and tools"
+  author: "Ian"
+  github: "https://github.com/iancoccimiglio"
+  avatar: "/images/avatar.jpg"
+  
+menu:
+  main:
+    - identifier: "home"
+      name: "Home"
+      url: "/"
+      weight: 10
+    - identifier: "about"
+      name: "About"
+      url: "/about/"
+      weight: 20
+    - identifier: "tags"
+      name: "Tags"
+      url: "/tags/"
+      weight: 30
+
+markup:
+  highlight:
+    style: "github"

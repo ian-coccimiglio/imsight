@@ -16,6 +16,11 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+public/
+resources/
+
+#
+.hugo_build.lock
 
 # Go workspace file
 go.work
