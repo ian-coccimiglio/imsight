@@ -10,7 +10,7 @@ draft = false
 However, image processing tasks can become quite long and computationally intensive, especially when tasks are processed serially on the CPU. In order to accelerate this process, it becomes worthwhile to leverage the GPU to accelerate processing. How much can a GPU really help? 
 
 ## GPU vs CPU &ndash; Speed Differences
-[As of 2024](https://github.com/MouseLand/cellpose/commit/dc3848da80c671772fa5b6593867bbed784f95ac), Cellpose was enabled to work on Apple Silicon chips via their Metal GPU architecture. This now creates a competitor to NVIDIA's (CUDA) architecture. It's worthwhile to explore how much this speed-up means in terms of real-world performance. Here, I've taken a large square-ish image (~2100px^2), and have made a series of square crops of increasing lengths (outlined [below](#processing-details)).
+[As of 2024](https://github.com/MouseLand/cellpose/commit/dc3848da80c671772fa5b6593867bbed784f95ac), Cellpose was enabled to work on Apple Silicon chips via their Metal GPU architecture. This now creates a competitor to NVIDIA's (CUDA) architecture. It's worthwhile to explore how much this speed-up means in terms of real-world performance. Here, I've taken a large square-ish image (~2100px^2), and have made a series of square crops of increasing lengths (outlined [below](#processing-details)). I then processed these images on a desktop featuring a NVIDIA RTX 4070, and compared it to my M1 Macbook Air.
 
 ![MacDesktop](Time_Difference.png)
 
