@@ -6,7 +6,7 @@ theme: "paper"
 params:
   description: "Evaluations of imaging platforms and tools"
   author: "Ian"
-  github: "https://github.com/iancoccimiglio"
+  github: "ian-coccimiglio/imsight"
   avatar: "/images/avatar.jpg"
   
 menu:
