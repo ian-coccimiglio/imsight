@@ -1,5 +1,5 @@
 ## Ian's Imaging Insights
-Offering tests and views in biological imaging
+Presenting thoughts, benchmarks and a quantitative perspective into biological imaging
 
 ## License
 
