@@ -37,6 +37,10 @@ All processing is done with the following setup from the python API:
 - Torch/Pytorch 2.4.0
 - Pytorch/CUDA 12.4 (For NVIDIA)
 
+For the benchmark itself:
+- I used diameter-estimation on every image
+- I used the cyto3 model
+
 For the Desktop, the processor is an Intel i7-8086K, 5GHz.
 
 For these tests, I used 5 iterations per test, and recorded the mean +/- SD. Images increase in length and width in size, from the smallest (224px\*224px), to the full image (2560px\*2160px). The image comes from the 2022 NeurIPS challenge. This one is Cell\_00505.tif from the training images.
